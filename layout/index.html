@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <aside>
+            <ul class="links">
+                <li onclick="navigator(0)" class="activelink"><i class="fa-solid fa-house">   
+                </i>
+                    <p>Inicio</p>
+                </li>
+                <li onclick="navigator(1)" class="fa-solid fa-user">
+                    <p>Sobre Nós</p>
+                </li>
+                <li onclick="navigator(2)" class="fa-solid fa-list">
+                    <p>Serviços</p>
+                </li>
+                <li onclick="navigator(3)" class="fa-solid fa-images">
+                    <p>Galeria</p>
+                </li>
+                <li oneclick="navigator(4)" class="fa-solid fa commentes">
+                    <p>Fale conosco</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="Homecontent">
+                        <h1>Olá! Nos Somos <span class="sytlized-name">Engenharia em Foco</span>,Lda</h1>
+                        <h2>Uma empresa de <span class="proffesions">Construção civil e Arquitetura</span></h2>
+                        <p class="heroline">
+                        </p>
+                        <div class="buttonGroup"><button>Contrata-me</button><button>Contacte-me</button></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-rigth-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="https://picsum.photos/id/237/200/200" alt="">
+                        <div class="botton-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help"> Deslize para o proximo slide
+                        <i class="fa-solid" fa-chevron-right fa-shake>
+                    </i>
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+</body>
+</html>

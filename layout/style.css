@@ -1,0 +1,166 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: Poppins;
+}
+
+main div{
+    margin: 0px;
+    padding: 0px;
+}
+
+aside{
+    width: 280;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 1.1rem;
+    background-color:#343a40;
+    backdrop-filter: blur(20px);
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+aside li{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+aside li:hover{
+    /*#80ed99*/
+    color: #43c2f0;
+}
+
+aside li::after{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    height: 1px;
+    background:linear-gradient(to left, transparent,#ffffff24, transparent);
+    content: '';
+    bottom: 0px;
+}
+
+aside li i{
+    font-size: 1.3rem;
+}
+
+.activelink{
+    color: #43c2f0;
+}
+
+.mySwiper{
+    flex: 1;
+    height: 100%;
+}
+
+.home-slide{
+    color: white;
+    display: flex;
+    background-color: #343a40;
+}
+
+.HomeContent{
+    margin: auto 0px;
+    flex: 1;
+    height: auto;
+    padding: 100px;
+    user-select: none;
+}
+
+.SideImg{
+    width: 30%;
+    margin: auto 10px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.SideImg img{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.SideImg .top-right-corner,
+.botton-left-corner{
+    position: absolute;
+}
+
+.botton-left-corner{
+    left: -50px;
+    bottom: -50px;
+    rotate: -90deg;
+}
+
+.top-right-corner{
+    right: -50px;
+    bottom: -50px;
+    rotate: 90deg;
+}
+
+.hr1{
+    width: 150px;
+    height: 10px;
+    border: none;
+    background-color: #43c2f0;
+    border-top-right-radius: 3px ;
+    border-bottom-right-radius: 3px;
+}
+
+.hr2{
+    width: 10px;
+    height: 120px;
+    border-bottom-left-radius: 3px;
+    border-color: #43c2f0;
+    border: #43c2f0;
+    border-bottom-right-radius: 3px;
+}
+
+.HomeContent h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.HomeContent h2{
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+.buttonGroup button.primary{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #43c2f0;
+    color: #343a40;
+    border-radius: 5px;
+}
+

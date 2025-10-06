@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: hwb(160 91% 7%);
+            margin: 0px;
+        }
+
+        header{
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(139, 136, 136);
+            box-shadow: 2px 5px 5px 0px rgba(36, 36, 36, 0.755);
+        }
+
+        nav > a{
+            color:rgb(24, 23, 23);
+            font-weight: bold;
+            text-decoration: none;
+            margin: 30px;
+        }
+
+        nav >a :hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(230, 196, 196);
+        }
+
+        article > aside{
+            background-color: rgb(207, 165, 165);
+        }
+
+        main{
+            background-color: rgb(198, 195, 192);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+            box-shadow: 2px 5px 5px 0px rgba(36, 36, 36, 0.755);
+        }
+
+        footer{
+            background-color: rgb(182, 205, 205);
+            color: black;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto quod modi voluptatum nihil reiciendis eos atque ratione! Ullam, et error ea ex cum enim aperiam modi rem, quas, sint fuga?</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2> noticia sobre programacao web</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At beatae quibusdam ea nihil suscipit nulla amet deserunt, neque dolore exercitationem, pariatur inventore quaerat hic. Corporis perspiciatis ex optio voluptatum aut.</p>
+                <aside>
+                    <p>Artigo escrito por Rock Vicente</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rock Vicente Nkamalila Chooly</p>
+    </footer>
+     
+</body>
+</html>
