@@ -5,7 +5,7 @@
 
 *{
     padding: 0px;
-    margin: 0px;
+    margin: 0px;    
 }
 
 :root{
@@ -16,16 +16,16 @@
 
 html,body{
     min-height: 100vh;
-    
     background-color: rgb(185, 182, 182);
-
+    
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
-    font-family: var(--font3)
+    font-family: var(--font3);
+    font-size: 3.5vw;
 }
 
 header > h1{
@@ -55,17 +55,26 @@ section{
     /*font-optical-sizing: auto;*/
     font-weight: 700;
     font-style: normal;
-    font-size: larger;
+    font-size: 4.4vw;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.imagem > p{
-    width: 300px;
     background-color: rgba(0, 0, 0, 0.149);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;  
 }
 
 section.imagem2 > p{
-    width: 300px;
     background-color: rgba(0, 0, 0, 0.149);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+  
 }
 
 section.normal{
@@ -77,13 +86,17 @@ section.imagem{
     background-size: cover;
     background-position: center center;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 
 section.imagem2{
     background: white url('imagens/background002.jpg') no-repeat fixed;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.716);
+    background-attachment: fixed;
 }
 
 footer{
