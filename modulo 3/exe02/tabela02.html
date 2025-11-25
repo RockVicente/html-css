@@ -12,17 +12,35 @@
         table{
             width: 400px;
             border-collapse:collapse ;
+            position: relative;
         }
         
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding-bottom: 10px;
+            background-color: #485b6160;
+        }
+
         thead,tfoot{
-            background-color: rgba(95, 158, 160, 0.774);
+            background-color: #5f9ea0c5;
         }
         
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #5f9ea0c5;
+        }
+
         td,th{
             border: 1px solid black;
             padding: 8px;
             text-align: left;
             vertical-align: middle;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color:  #485b6160;;
         }
 
         .numero{
@@ -43,10 +61,11 @@
             tr,td,th  
     -->
     <table>
+        <caption>produçâo das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populacao</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Populacao</th>
             </tr>
         </thead>
         <tbody>
@@ -66,14 +85,111 @@
                 <td>Rio Grande do sul</td>
                 <td class="numero">11 377 239</td>
             </tr>
-
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9 557 029</td>
+            </tr>
+             <tr>
+                <td>Cerra</td>
+                <td class="numero">9 132 078</td>
+            </tr>
+             <tr>
+                <td>Para</td>
+                <td class="numero">8 602 885</td>
+            </tr>
+             <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">7 184 788</td>
+            </tr>
+             <tr>
+                <td>Maranhao</td>
+                <td class="numero">7 075 181</td>
+            </tr>
+             <tr>
+                <td>Goias</td>
+                <td class="numero">7 018 354</td>
+            </tr>
+             <tr>
+                <td>Amazonas</td>
+                <td class="numero">4 144 597</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total Habitantes</th>
+                <th scope="row">Total Habitantes</th>
                 <td>000</td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, nesciunt. Velit labore eligendi 
+        debitis suscipit, doloremque sunt facere error. Adipisci minima repellat voluptatibus mollitia 
+        quos eos molestias corrupti ea incidunt?Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Fugiat dicta ad in, laudantium perspiciatis magnam voluptatem 
+        voluptatibus placeat? Qui consectetur iure voluptas perferendis 
+        mollitia accusamus eum esse quam sunt cumque!Lorem
+    </p>
 </body>
 </html>
