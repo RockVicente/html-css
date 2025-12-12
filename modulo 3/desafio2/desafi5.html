@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+    <style>
+     body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        thead{
+            position: sticky;
+            top: -1px;
+            background-color: beige;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .desc{
+            background-color:rgb(152, 161, 177) ;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead class="desc">
+            <th rowspan="2" scope="col">AREA</th>
+            <th rowspan="2" scope="col">DISCIPLINA</th>
+            <th colspan="2" scope="colgroup">NOTAS</th>
+            <th rowspan="2" scope="col">MEDIA</th>
+            <tr>
+                <td>NOTA 1</td>
+                <td>NOTA 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="5" scope="colgroup">EXATAS</th>
+            </tr>
+            <tr>
+                <td>MATEMATICA</td>
+                <td>13</td>
+                <td>14</td>
+                <TD>13.5</TD>
+            </tr>
+            <tr>
+                <td>FISICA</td>
+                <td>13</td>
+                <td>16</td>
+                <Td>14.5</Td>
+            </tr>
+            <tr>
+                <td>QUIMICA</td>
+                <td>10</td>
+                <td>13</td>
+                <td>11.5</td>
+            </tr>
+            <tr>
+                <td>BIOLOGIA</td>
+                <td>15</td>
+                <td>17</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="desc">MEDIAS EXATAS</td>
+                <TD class="desc">13.9</TD>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="colgroup">HUMANAS</th>
+            </tr>
+            <tr>
+                <td>HISTORIA</td>
+                <TD>15</TD>
+                <TD>14</TD>
+                <TD>14.5</TD>
+            </tr>
+            <TR>
+                <TD>GEOGRAFIA</TD>
+                <TD>16</TD>
+                <TD>15</TD>
+                <td>15.5</td>
+            </TR>
+            <TR>
+                <td colspan="4" class="desc">MEDIAS HUMANAS</td>
+                <TD class="desc">15</TD>
+            </TR>
+            
+        </tbody>
+    </table>
+</body>
+</html>

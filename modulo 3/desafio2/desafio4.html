@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 600px;
+        }
+
+        thead{
+            position: sticky;
+            top: -1px;
+            background-color: beige;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <th scope="col">Grupos</th>
+            <th scope="col">nomes</th>
+            <th colspan="5" scope="colgroup">filmes</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Mulheres</th>
+            </tr>
+            <tr>
+                <td colspan="2">ana maria</td>
+                <td>alien</td>
+                <td>rambo</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td  colspan="2">maria alice</td>
+                <td>hulk</td>
+                <td>inception</td>
+                <td>batman</td>
+            </tr>
+            <tr>
+                <td  colspan="2">neyd jose</td>
+                <td>oblivion</td>
+                <td>matrix</td>
+                <td>big bang</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Homens</th>
+            </tr>
+            <tr>
+                <td  colspan="2">rock vicente</td>
+                <td>matrix</td>
+                <td>spider man</td>
+                <td>exterminador</td>
+            </tr>
+             <tr>
+                <td  colspan="2">vicente chooly</td>
+                <td>oblivion</td>
+                <td>matrix</td>
+                <td>big bang</td>
+            </tr>
+             <tr>
+                <td  colspan="2">putscript</td>
+                <td>oblivion</td>
+                <td>matrix</td>
+                <td>big bang</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
