@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uso de iframe</title>
+    <style>
+    body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    } 
+
+    iframe{
+        width: 95vw;
+        height: 400px;
+        display: block;
+        margin: auto;
+        border: 2px solid black   ;
+    }
+    </style>
+</head>
+<body>
+    <h1>Faca uma escolha</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Et culpa at voluptatem qui commodi numquam ipsa voluptas 
+        odio. Tempore odit doloribus velit nobis dicta 
+        cupiditate, quo ducimus qui eveniet! Id?
+    </p>
+    <ul>
+        <li><a href="index.html" target="frame">primeira pagina</a></li>
+        <li><a href="pagina2.html" target="frame">segunda pagina</a></li>
+        <li><a href="pagina3.html" target="frame">terceira pagina</a></li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Et culpa at voluptatem qui commodi numquam ipsa voluptas 
+        odio. Tempore odit doloribus velit nobis dicta 
+        cupiditate, quo ducimus qui eveniet! Id?
+    </p>
+    <iframe src="" frameborder="1" name="frame" srcdoc="
+        <h1>escolha uma das opcoes acima</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et culpa at voluptatem qui commodi numquam ipsa voluptas 
+            odio. Tempore odit doloribus velit nobis dicta 
+            cupiditate, quo ducimus qui eveniet! Id?
+        </p>
+       ">
+        <p>infelizmente o seu navegador nao e compativel com iframe</p>
+    </iframe>
+     <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Et culpa at voluptatem qui commodi numquam ipsa voluptas 
+        odio. Tempore odit doloribus velit nobis dicta 
+        cupiditate, quo ducimus qui eveniet! Id?
+    </p>
+     <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Et culpa at voluptatem qui commodi numquam ipsa voluptas 
+        odio. Tempore odit doloribus velit nobis dicta 
+        cupiditate, quo ducimus qui eveniet! Id?
+    </p>
+</body>
+</html>
