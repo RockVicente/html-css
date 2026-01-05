@@ -20,7 +20,7 @@ header > h1{
     text-align: center;
 }
 
-span#burger{
+.material-symbols-outlined{
     background-color: rgb(45, 44, 44);
     color: white;
     display: block;
@@ -29,7 +29,7 @@ span#burger{
     cursor: pointer;
 }
 
-span#burger:hover{
+.material-symbols-outlined:hover{
     background-color: white;
     color: black;
 }
@@ -57,7 +57,7 @@ menu > ul > li > a:hover{
 }
 
 main{
-    width: 90%vw;
+    width: 90vw;
     background-color: white;
     margin: auto;
     margin-top: 10px;
