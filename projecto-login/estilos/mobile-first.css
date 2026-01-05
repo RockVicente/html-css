@@ -5,12 +5,13 @@
     --cor2:#B98ABF;
     --cor3:#664A8C;
     --cor4:#0E0726;
-    --cor5:#1A1040;
+    --cor5:#1a10407c;
 }
 
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 html{
@@ -22,45 +23,75 @@ body{
     color: white;
     background-size: cover;
 }
-
-section{
-    position: relative;
-    top: 20vh;
-    height: 400px;
+main{
+    height: 100vh;
     width: 100vw;
 }
 
-div{
+section#login{
     position: relative;
-    top: 8vh;
-}
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-fieldset{
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    width: 400px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.771);
+    height: 500px;
+    width: 350px;
+    background-color: var(--cor4);
     border-radius: 20px;
+    overflow: hidden;
 }
 
-legend{
+div{
+    text-align: center;
+}
+
+div#imagem-login{
+    display: block;
+    background: var(--cor1) url('../imagens/section-celular.jpg') center no-repeat fixed;
+    background-size: cover;
+    height:200px;
+}
+
+div#formulario{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 600px;
+    background: var(--cor4);
+    display: block; 
+}
+
+h1{
     font-size: 2em;
+    padding-top: 20px;
 }
 
 p{
     display: block;
     margin: auto;
-    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+form{
+    background-color: var(--cor1);
+
 }
 
 input {
-    padding: 10px;
+    text-align: center;
+    padding: 8px;
     margin-bottom: 10px;
     border-radius: 10px;
     width: 200px;
 }
 
-.submit{
-    width: 222px;
+#submit{
+    width: 202px;
+    background-color: var(--cor2);
+}
+
+#submit:hover{
+    background-color:#d768e5a4;
 }
