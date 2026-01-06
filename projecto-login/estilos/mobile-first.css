@@ -54,8 +54,7 @@ div#imagem-login{
 
 div#formulario{
     display: block; 
-    height:600px;
-    background: var(--cor1);  
+    height:600px;   
 }
 
 .formulario{
@@ -84,4 +83,14 @@ input{
 .entrada-dados:hover{
     background-color: var(--cor3);
     color: white;
+}
+
+a{
+    text-decoration: none;
+    border: 2px 2px 2px black;
+    color:white;
+}
+
+a > .esqueci-senha{
+    margin-top: 20px;
 }
