@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        div.conteiner{
+            background-color: salmon;
+            
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        div#pri{
+            flex: 2 0 100px;
+        }
+
+        #seg{
+            flex: 1 1 100px;
+        }
+
+        #ter{
+            flex: 3 2 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="pri">a</div>
+        <div class="item " id="seg">b</div>
+        <div class="item" id="ter">c</div>
+    </div>
+</body>
+</html>
