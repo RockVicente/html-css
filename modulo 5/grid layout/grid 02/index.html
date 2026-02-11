@@ -8,10 +8,11 @@
         div.conteiner{
             border: 3px solid blue;
             display: grid;
-            grid-template:  100px 100px 100px / auto auto auto;
+            height: 250px;
+            grid-template:  repeat(3, 100px) / repeat(3, auto);
             gap: 10px;
-            place-items: normal normal;
-            place-content: normal normal;
+            place-items: start center;
+            place-content: space-between end;
         }
 
         div.item{
